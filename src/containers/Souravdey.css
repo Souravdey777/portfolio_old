@@ -1,0 +1,34 @@
+.Souravdey {
+  font-family: 'Josefin Sans', sans-serif;
+    padding: 4vmin;
+    font-size: 18px;
+    background-color: #222;
+    color: #ccc;
+    min-height: 100vh;
+  }
+  
+  h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  h1 { font-size: calc(16px + 6vmin);
+    font-weight: bold; }
+  h2 {
+    color: white;
+    font-size: calc(16px + 2vmin);
+    font-weight: bold;
+  }
+  .txt-rotate{
+    font-size: 2em;
+    color: white;
+  }
+  
+  @media(max-width:425px){
+    
+  h1 {
+     font-size: calc(16px + 2vmin);
+   }
+   h2{
+    font-size: calc(16px + 4vmin);
+   }
+  }
